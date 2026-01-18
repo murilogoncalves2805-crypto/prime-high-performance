@@ -218,3 +218,97 @@
 
 </body>
 </html>
+.btn-comprar {
+  display: inline-block;
+  background: linear-gradient(135deg, #d4af37, #b8962e);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-comprar:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+<section class="produto-container">
+  <div class="produto-card">
+    <img src="https://images.unsplash.com/photo-1523381294911-8d3cead13475"
+         alt="Camisa Prime High Performance">
+
+    <h2>Camisa Prime High Performance</h2>
+
+    <p class="descricao">
+      Camisa esportiva de alta performance, ideal para musculação,
+      corrida, MMA e treinos intensos.
+    </p>
+
+    <p class="preco">R$ 149,90</p>
+
+    <a href="COLE_AQUI_SEU_LINK_DO_MERCADO_PAGO"
+       target="_blank"
+       class="btn-comprar">
+      Comprar agora
+    </a>
+  </div>
+</section>
+
+<style>
+.produto-container {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+  background-color: #f8f8f8;
+}
+
+.produto-card {
+  background: #ffffff;
+  max-width: 350px;
+  border-radius: 20px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.produto-card img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.produto-card h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.descricao {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.preco {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.btn-comprar {
+  display: inline-block;
+  background: linear-gradient(135deg, #d4af37, #b8962e);
+  color: #fff;
+  padding: 14px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-comprar:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+</style>
